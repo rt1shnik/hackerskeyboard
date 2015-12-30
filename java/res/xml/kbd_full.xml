@@ -51,12 +51,12 @@
             android:keyLabel="Del"
             android:isRepeatable="true"            
             android:isModifier="true"
-            android:keyWidth="8.7142855%p"      
-            android:keyEdgeFlags="right" />
+            android:keyWidth="8.7142855%p" />
 		<Key
             android:codes="@integer/key_insert"
             android:keyLabel="Ins"
-            android:isRepeatable="true"            
+            android:isRepeatable="true" 
+            android:keyEdgeFlags="right"           
             android:isModifier="true" />
 	
     </Row>

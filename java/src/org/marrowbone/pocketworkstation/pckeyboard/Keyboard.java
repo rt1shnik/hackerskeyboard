@@ -82,7 +82,7 @@ public class Keyboard {
     public static final int KEYCODE_MODE_CHANGE = -2;
     public static final int KEYCODE_CANCEL = -3;
     public static final int KEYCODE_DONE = -4;
-    public static final int KEYCODE_DELETE = -5;
+    public static final int KEYCODE_DELETE = -64;
     public static final int KEYCODE_ALT_SYM = -6;
 
     // Backwards compatible setting to avoid having to change all the kbd_qwerty files

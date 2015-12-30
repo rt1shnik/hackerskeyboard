@@ -1917,14 +1917,6 @@ public class LatinIME extends InputMethodService implements
         final boolean distinctMultiTouch = mKeyboardSwitcher
                 .hasDistinctMultitouch();
         switch (primaryCode) {
-        case Keyboard.KEYCODE_DELETE:
-            if (processMultiKey(primaryCode)) {
-                break;
-            }
-            handleBackspace();
-            mDeleteCount++;
-            LatinImeLogger.logOnDelete();
-            break;
         case Keyboard.KEYCODE_SHIFT:
             // Shift key is handled in onPress() when device has distinct
             // multi-touch panel.
@@ -2019,6 +2011,7 @@ public class LatinIME extends InputMethodService implements
         case LatinKeyboardView.KEYCODE_FKEY_F10:
         case LatinKeyboardView.KEYCODE_FKEY_F11:
         case LatinKeyboardView.KEYCODE_FKEY_F12:
+        case LatinKeyboardView.KEYCODE_DEL:
         case LatinKeyboardView.KEYCODE_FORWARD_DEL:
         case LatinKeyboardView.KEYCODE_INSERT:
         case LatinKeyboardView.KEYCODE_SYSRQ:
