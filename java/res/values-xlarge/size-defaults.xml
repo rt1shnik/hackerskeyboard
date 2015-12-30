@@ -19,7 +19,7 @@
 -->
 
 <resources>
-    <string name="default_height_portrait">25%</string>
-    <string name="default_height_landscape">45%</string>
+    <string name="default_height_portrait">20%</string>
+    <string name="default_height_landscape">35%</string>
     <string name="default_keyboard_mode_portrait">2</string>    
 </resources>
