@@ -2435,7 +2435,8 @@ public class LatinIME extends InputMethodService implements
     }
 
     private boolean isCandidateStripVisible() {
-        return isPredictionOn();
+//        return isPredictionOn();
+    	return false;
     }
 
     private void switchToKeyboardView() {
