@@ -2018,6 +2018,7 @@ public class LatinIME extends InputMethodService implements
         case LatinKeyboardView.KEYCODE_BREAK:
         case LatinKeyboardView.KEYCODE_NUM_LOCK:
         case LatinKeyboardView.KEYCODE_SCROLL_LOCK:
+        case LatinKeyboardView.KEYCODE_ENTER:
             if (processMultiKey(primaryCode)) {
                 break;
             }
